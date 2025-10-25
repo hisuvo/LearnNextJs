@@ -12,6 +12,9 @@ const Navbar = () => {
           <Link href="/movie">All Movies</Link>
         </li>
         <li>
+          <Link href="/addmovie">Add Movies</Link>
+        </li>
+        <li>
           <Link href="/about">About</Link>
         </li>
         <li>

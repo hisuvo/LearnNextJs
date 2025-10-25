@@ -21,14 +21,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`flex flex-col min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={` flex flex-col min-h-screen ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* ------- Header ----- */}
         <Navbar />
         <hr />
 
         {/* ------- Main Part ----- */}
-        <main className="flex-grow">{children}</main>
+        <main className="container mx-auto flex-grow">{children}</main>
 
         {/* ------- Footer ----- */}
         <footer className="text-center">

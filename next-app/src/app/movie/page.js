@@ -3,9 +3,11 @@ import MovieList from "../components/MovieList";
 
 const page = () => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <MovieList />
-    </Suspense>
+    <div className="mt-6 ">
+      <Suspense fallback={<div>Loading...</div>}>
+        <MovieList />
+      </Suspense>
+    </div>
   );
 };
 
